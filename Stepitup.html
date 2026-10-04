@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Step it-up - TechStore</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header & Navbar -->
+  <header>
+    <h1>Step it-up (Fiktif)</h1>
+    <div class="cart-icon">
+      🛒 Keranjang: <span id="cart-count">0</span> item
+    </div>
+  </header>
+
+  <!-- Banner Disclaimer -->
+  <div class="disclaimer">
+    ⚠️ Ini adalah website toko online fiktif untuk keperluan simulasi.
+  </div>
+
+  <!-- Katalog Produk -->
+  <main class="product-grid">
+    
+    <!-- Product 1 -->
+    <div class="product-card">
+      <img src="https://picsum.photos/300/200?random=1" alt="Product 3">
+      <h3>Floral Mary Jane</h3>
+      <p class="price">Rp 199.000</p>
+      <button onclick="addToCart('Floral Mary Jane')">Tambah ke Keranjang</button>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product-card">
+      <img src="https://picsum.photos/300/200?random=2" alt="Produt 2">
+      <h3>Velvet Mary Jane</h3>
+      <p class="price">Rp 189.000</p>
+      <button onclick="addToCart('Velvet Mary Jane')">Tambah ke Keranjang</button>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="product-card">
+      <img src="https://picsum.photos/300/200?random=3" alt="Product 3">
+      <h3>Dotty Tabby Flats</h3>
+      <p class="price">Rp 195.000</p>
+      <button onclick="addToCart('Dotty Tabby Flats')">Tambah ke Keranjang</button>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="product-card">
+      <img src="https://picsum.photos/300/200?random=3" alt="Product 4">
+      <h3>Mesh Mary Jane Flats</h3>
+      <p class="price">Rp 200.000</p>
+      <button onclick="addToCart('Mesh Mary Jane Flats')">Tambah ke Keranjang</button>
+    </div>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
